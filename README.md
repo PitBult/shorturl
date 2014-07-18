@@ -1,7 +1,7 @@
 ShortUrl
 ========
 
-[![ShortUrl](http://www.techgid.ru/img/2012/11/28/turn-long-short.jpg)]
+![ShortUrl](http://www.techgid.ru/img/2012/11/28/turn-long-short.jpg)
 
 A ShortUrl is a service that translates long URLs into abbreviated alternatives. ShortUrl services are based on URL redirection.
 
