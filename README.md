@@ -3,12 +3,29 @@ ShortUrl
 
 ![ShortUrl](http://www.techgid.ru/img/2012/11/28/turn-long-short.jpg)
 
-Description
+Описание
 ---------
 
-A ShortUrl is a service that translates long URLs into abbreviated alternatives. ShortUrl services are based on URL redirection.
+ShortURL это Web-приложение, которое преобразует длинные URL-адреса в сокращенные. ShortURL основан на перенаправление URL. 
 
-ShortUrl are preferable for a number of reasons. Longer ones are often broken in email messages, for example, and may not work reliably. Furthermore, for some types of communications, such as text messaging and posting to Twitter, the number of characters permitted per post is so limited that including a long URL would leave no room for a message to accompany it.
+Более длинные из них часто ломаются в сообщениях электронной почты, и могут работать не надежно. Кроме того, для некоторых видов связи, таких как обмен текстовыми сообщениями и размещения на Twitter, количество символов, разрешенных в пост настолько ограничено, что длинный URL не оставит места для сообщения.
 
-Configure
+Изображение
+---------
+![ShortUrl](https://github.com/PitBult/shorturl/blob/master/demo.png)
+
+Установка
+---------
+Для установки и запуска приложения необходимо:
+- дополнительно скачать PHP framework Yii 1.1.15. http://www.yiiframework.com/download/
+- необходимо создать папки /assets/ и /protected/runtime/ с правами 777 для записи
+- изменить файл /index.php, прописать правильный путь к PHP Yii-framework 
+- создать БД MySQL, дамп расположен в /protected/data/sql_dump.sql
+
+Использование сторонних библиотек
+---------
+- Bootstrap v3.2.0 (http://getbootstrap.com/)
+- ZeroClipboard v2.1.5 (http://zeroclipboard.org/)
+
+Принцип работы
 ---------
